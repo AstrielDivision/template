@@ -5,7 +5,7 @@ __metadata:
   version: 4
   cacheKey: 8
 
-"@astriel-division/eslint-config@npm:^1.1.6":
+"@astriel-division/eslint-config@npm:1.1.6":
   version: 1.1.6
   resolution: "@astriel-division/eslint-config@npm:1.1.6"
   dependencies:
@@ -26,23 +26,23 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@astriel-division/template@workspace:."
   dependencies:
-    "@astriel-division/eslint-config": ^1.1.6
-    "@astriel-division/ts-config": ^1.0.5
+    "@astriel-division/eslint-config": 1.1.6
+    "@astriel-division/ts-config": 1.0.5
     "@commitlint/cli": 13.1.0
     "@commitlint/config-conventional": 13.1.0
-    "@types/node": ^16.7.10
-    cz-conventional-changelog: ^3.3.0
-    eslint: ^7.32.0
-    husky: ^7.0.2
-    lint-staged: ^11.1.2
-    rimraf: ^3.0.2
-    standard-version: ^9.3.1
-    typescript: ^4.4.2
-    xv: ^1.0.0
+    "@types/node": 16.7.10
+    cz-conventional-changelog: 3.3.0
+    eslint: 7.32.0
+    husky: 7.0.2
+    lint-staged: 11.1.2
+    rimraf: 3.0.2
+    standard-version: 9.3.1
+    typescript: 4.4.2
+    xv: 1.0.0
   languageName: unknown
   linkType: soft
 
-"@astriel-division/ts-config@npm:^1.0.5":
+"@astriel-division/ts-config@npm:1.0.5":
   version: 1.0.5
   resolution: "@astriel-division/ts-config@npm:1.0.5"
   dependencies:
@@ -350,7 +350,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:^16.7.10":
+"@types/node@npm:16.7.10":
   version: 16.7.10
   resolution: "@types/node@npm:16.7.10"
   checksum: 0518803caa1a14f4070e770a280eda1c4b4581a425cbda481cdd54b1f34a7ea497ff067fd23b90e3d4f4fdcfba15c1316182875e9cf9f5b2e880de1e595de053
@@ -1192,7 +1192,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cz-conventional-changelog@npm:^3.3.0":
+"cz-conventional-changelog@npm:3.3.0":
   version: 3.3.0
   resolution: "cz-conventional-changelog@npm:3.3.0"
   dependencies:
@@ -1605,7 +1605,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint@npm:^7.32.0":
+"eslint@npm:7.32.0":
   version: 7.32.0
   resolution: "eslint@npm:7.32.0"
   dependencies:
@@ -2262,7 +2262,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"husky@npm:^7.0.2":
+"husky@npm:7.0.2":
   version: 7.0.2
   resolution: "husky@npm:7.0.2"
   bin:
@@ -2713,7 +2713,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lint-staged@npm:^11.1.2":
+"lint-staged@npm:11.1.2":
   version: 11.1.2
   resolution: "lint-staged@npm:11.1.2"
   dependencies:
@@ -3649,7 +3649,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rimraf@npm:^3.0.2":
+"rimraf@npm:3.0.2, rimraf@npm:^3.0.2":
   version: 3.0.2
   resolution: "rimraf@npm:3.0.2"
   dependencies:
@@ -3871,7 +3871,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"standard-version@npm:^9.3.1":
+"standard-version@npm:9.3.1":
   version: 9.3.1
   resolution: "standard-version@npm:9.3.1"
   dependencies:
@@ -4250,7 +4250,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@4.4.2, typescript@^4.4.2":
+typescript@4.4.2:
   version: 4.4.2
   resolution: "typescript@npm:4.4.2"
   bin:
@@ -4260,7 +4260,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@4.4.2#~builtin<compat/typescript>, typescript@patch:typescript@^4.4.2#~builtin<compat/typescript>":
+"typescript@patch:typescript@4.4.2#~builtin<compat/typescript>":
   version: 4.4.2
   resolution: "typescript@patch:typescript@npm%3A4.4.2#~builtin<compat/typescript>::version=4.4.2&hash=d8b4e7"
   bin:
@@ -4423,7 +4423,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"xv@npm:^1.0.0":
+"xv@npm:1.0.0":
   version: 1.0.0
   resolution: "xv@npm:1.0.0"
   bin:

@@ -11,19 +11,19 @@
     "commit": "git-cz"
   },
   "devDependencies": {
-    "@astriel-division/eslint-config": "^1.1.6",
-    "@astriel-division/ts-config": "^1.0.5",
+    "@astriel-division/eslint-config": "1.1.6",
+    "@astriel-division/ts-config": "1.0.5",
     "@commitlint/cli": "13.1.0",
     "@commitlint/config-conventional": "13.1.0",
-    "@types/node": "^16.7.10",
-    "cz-conventional-changelog": "^3.3.0",
-    "eslint": "^7.32.0",
-    "husky": "^7.0.2",
-    "lint-staged": "^11.1.2",
-    "rimraf": "^3.0.2",
-    "standard-version": "^9.3.1",
-    "typescript": "^4.4.2",
-    "xv": "^1.0.0"
+    "@types/node": "16.7.10",
+    "cz-conventional-changelog": "3.3.0",
+    "eslint": "7.32.0",
+    "husky": "7.0.2",
+    "lint-staged": "11.1.2",
+    "rimraf": "3.0.2",
+    "standard-version": "9.3.1",
+    "typescript": "4.4.2",
+    "xv": "1.0.0"
   },
   "files": [
     "build",
