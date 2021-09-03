@@ -1,0 +1,6 @@
+{
+  "extends": "@astriel-division/ts-config/src/tsconfig.json",
+  "compilerOptions": {
+    "outDir": "./opt",
+  }
+}

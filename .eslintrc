@@ -1,0 +1,6 @@
+{
+	"extends": "@astriel-division/eslint-config",
+	"parserOptions": {
+		"project": "./src/tsconfig.json"
+	}
+}

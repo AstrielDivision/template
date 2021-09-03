@@ -1,0 +1,57 @@
+{
+  "name": "@astriel-division/template",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "yarn clean && yarn build:ts",
+    "build:ts": "tsc -b src",
+    "clean": "rimraf ./build && mkdir build",
+    "lint": "eslint --cache --report-unused-disable-directives --ignore-path .gitignore --ext .ts src/",
+    "lint:fix": "eslint --cache --report-unused-disable-directives --ext .ts src/ --fix",
+    "test": "tsc -b tests && xv tests",
+    "commit": "git-cz"
+  },
+  "devDependencies": {
+    "@astriel-division/eslint-config": "^1.1.6",
+    "@astriel-division/ts-config": "^1.0.5",
+    "@commitlint/cli": "^13.1.0",
+    "@commitlint/config-conventional": "^13.1.0",
+    "@types/node": "^16.7.10",
+    "cz-conventional-changelog": "^3.3.0",
+    "eslint": "^7.32.0",
+    "husky": "^7.0.2",
+    "lint-staged": "^11.1.2",
+    "rimraf": "^3.0.2",
+    "standard-version": "^9.3.1",
+    "typescript": "^4.4.2",
+    "xv": "^1.0.0"
+  },
+  "files": [
+    "build",
+    "!build/tsconfig*"
+  ],
+  "lint-staged": {
+    "src/**/*.ts": "yarn lint:fix"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AstrielDivision/template.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AstrielDivision/template/issues"
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
