@@ -1,3 +1,3 @@
-export default function world() {
+export function world() {
   return 'hello world!'
 }

@@ -7,7 +7,7 @@
     "clean": "rimraf ./build && mkdir build",
     "lint": "eslint --cache --report-unused-disable-directives --ignore-path .gitignore --ext .ts src/",
     "lint:fix": "eslint --cache --report-unused-disable-directives --ext .ts src/ --fix",
-    "test": "tsc -b tests && xv tests",
+    "test": "rimraf tests/opt && tsc -b tests && xv tests",
     "commit": "git-cz"
   },
   "devDependencies": {
