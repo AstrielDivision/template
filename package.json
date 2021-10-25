@@ -23,7 +23,7 @@
     "rimraf": "3.0.2",
     "standard-version": "9.3.2",
     "typescript": "4.4.4",
-    "xv": "1.1.0"
+    "xv": "1.1.1"
   },
   "files": [
     "build",
